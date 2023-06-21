@@ -5,18 +5,22 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>REACT</li>
-          <li>JS</li>
-        </ul>
-      </div>
+      <Technologies />
     </div>
   );
 };
 
+const Technologies = () => {
+  return (
+    <div>
+      <ul>
+        <li>react</li>
+        <li>js</li>
+        <li>ts</li>
+      </ul>
+    </div>
+  );
+};
 const Header = () => {
   return (
     <div>
