@@ -5,9 +5,7 @@
   display: grid;
   margin: 0 auto;
 }
-.item {
-  color: yellowgreen;
-}
+
 .content img {
   width: 1200px;
   height: 400px;
