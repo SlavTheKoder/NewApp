@@ -3,13 +3,13 @@ import Post from './Post/Post';
 const MyPosts = () => {
   return (
     <div>
-      my posts
+      My posts
       <div>
         <textarea></textarea>
         <button>Add Post</button>
         <div className={s.posts}>
-          <Post />
-          <Post />
+          <Post message="Hello World!" />
+          <Post message="One More Disaster Artist" />
         </div>
       </div>
     </div>
