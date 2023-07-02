@@ -1,12 +1,4 @@
-.content {
-  grid-area: c;
-  background-color: #5656bb;
+.logo {
   width: 1200px;
-  display: grid;
-  margin: 0 auto;
-}
-
-.content img {
-  width: 1200px;
-  height: 400px;
+  height: 600px;
 }
